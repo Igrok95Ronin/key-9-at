@@ -1,0 +1,69 @@
+.person {
+}
+.person__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.person__card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.person__img {
+    width: 100%;
+    height: 100%;
+}
+.person__wrapper {
+    background-color: $mainColor;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.person__inner {
+    text-align: center;
+}
+.person__name {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.person__aktiv {
+    font-weight: 600;
+    margin-bottom: 10px;
+    span{
+    position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-color: #16c60c;
+            border-radius: 50%;
+            left: -25px;
+            outline: 1px solid #000;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+}
+.person__km {
+    margin-bottom: 5px;
+
+}
+.person__min {
+    font-weight: 600;
+}
+.person__inner2 {
+}
+.person__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.person__ul {
+    padding-left: 50px;
+    font-weight: 600;
+    line-height: 24px;
+}

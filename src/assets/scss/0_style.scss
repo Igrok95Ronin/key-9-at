@@ -61,3 +61,10 @@ $mainColor : #196db6;
         }
     }
 }
+@mixin h2Title {
+    color: $mainColor;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 40px;
+}

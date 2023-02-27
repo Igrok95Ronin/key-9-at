@@ -1,0 +1,36 @@
+.about {
+}
+.about__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.about__left {
+}
+.about__title {
+    @include h2Title;
+}
+.about__txt {
+    line-height: 24px;
+}
+.about__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.about__inner {
+}
+.about__grade {
+    font-weight: 700;
+}
+.about__stars {
+}
+.about__comments {
+    line-height: 24px;
+}
+.about__name {
+    font-weight: 700;
+}

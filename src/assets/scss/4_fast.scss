@@ -1,0 +1,28 @@
+.fast {
+    margin: 30px 0;
+}
+.fast__box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.fast__inner {
+}
+.fast__inf {
+    background-color: $mainColor;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}
+.fast__imgWrapper1 {
+    padding-right: 5px;
+}
+.fast__imgWrapper2 {
+    padding: 0 2.5px;
+}
+.fast__imgWrapper3 {
+    padding-left: 5px;
+}
+.fast__img {
+    width: 100%;
+}

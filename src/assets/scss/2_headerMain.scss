@@ -1,0 +1,34 @@
+.headerMain {
+    margin: 20px 0;
+}
+.headerMain__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.headerMain__left {
+}
+.headerMain__img {
+    width: 100%;
+    border-radius: 5px;
+}
+.headerMain__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerMain__ul {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+.headerMain__btnWrapper {
+    text-align: center;
+}
+.headerMain__btnDescr {
+    font-weight: 700;
+}
+.headerMain__btn {
+    @include btn;
+}

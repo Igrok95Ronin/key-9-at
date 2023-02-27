@@ -1,0 +1,16 @@
+.forms {
+}
+.forms__wrapper {
+}
+.forms__box {
+}
+.forms__title {
+    text-align: center;
+    color: $mainColor;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.forms__button {
+    @include btn;
+    font-size: 16px;
+}

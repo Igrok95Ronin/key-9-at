@@ -13,7 +13,6 @@ ul,li,h1,h2,h3,p{
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 body{
     margin: auto;
@@ -65,6 +64,6 @@ $mainColor : #196db6;
     color: $mainColor;
     font-weight: 600;
     margin-bottom: 15px;
-    font-size: 32px;
+    font-size: clamp(24px,5vw,32px);
     line-height: 40px;
 }

@@ -1,0 +1,12 @@
+.fixedBtnWrapper {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.fixedBtn {
+    @include btn;
+    width: 100%;
+    border-radius: 0;
+}
